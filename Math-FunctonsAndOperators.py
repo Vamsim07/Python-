@@ -46,7 +46,6 @@
 
 
 #Math Functions
-import math
 
 a = 10.764
 print(round(a)) #it's convert boolean Values into integer
@@ -56,3 +55,13 @@ C = 5
 print(pow(C, 2))  # Power of C^2
 print(max(a, B, C)) # Maximum Value
 print(min(a, B, C)) #Minimum Value
+
+
+#  Math Modules
+import math
+
+print(math.pi)
+print(math.e)
+print(math.sqrt(9))
+print(math.ceil(9.2))
+print(math.floor(9.9))
