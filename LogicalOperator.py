@@ -5,7 +5,7 @@ temp = int(input("enter the Temprator at outside : "))
 # if -100 <= temp <= 10 : 
 #     print("the Temperator is cool, and Njoy the snow")
 
-# elif not(temp >= 10 and temp <= 30):
+# elif not(temp >= 10 and temp <= 30): # Using NOT Operator
 #     print("mistaken")
 
 # elif temp >= 10 and temp <= 30:    # Using AND Operator
@@ -15,7 +15,7 @@ temp = int(input("enter the Temprator at outside : "))
 # else:
 #     print("The Temprator is high..! Be Hydrate")
 
-if (temp >= 10 and temp <= 30) or (-100 <= temp <= 10) :
+if (temp >= 10 and temp <= 30) or (-100 <= temp <= 10) : # Using OR Operator
     print("good whether")
 
 else:
