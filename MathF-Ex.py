@@ -22,6 +22,6 @@ print(math.pi)
 A = int(input("Enter a Number : "))
 B = int(input("Enter Another Number : "))
 
-C  = math.sqrt(A**2 + B**2)
+C  = math.sqrt(pow(A, 2) + pow(B, 2))
 
 print(f"Hypotenuese is {C} ")
